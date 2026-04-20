@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block content %}
+<main class="container py-3 col-md-6">
+    <section class="card card-body card border-info mb-3">
+    <h1 class="fs-2 text-center">
+        Django App
+    </h1>    
+    <p>
+        Aplicación desarrollada con Django y Bootstrap, la cual cumple con las funciones principales de un sistema: puedes consultar, agregar, actualizar y eliminar las tareas del usuario. Todo esto a través de un usuario único y mediante la autenticación de tus datos.<br><br>
+
+        Aplicación desarrollada por David Quintero
+    </p>
+
+    <div class="text-center">
+        <a 
+        class="btn btn-secondary" href="{% url 'signin' %}">
+            Iniciar
+        </a>
+        <a class="btn btn-primary" href="{% url 'signup' %}"
+        >
+            Registrarme
+        </a>
+    </div>
+    </section>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide mt-5">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+        {% load static %}
+        <img src="{% static 'crear.png' %}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+        <img src="{% static 'tareas.png' %}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="{% static 'crud.png' %}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+</main>
+
+{% endblock %}
