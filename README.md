@@ -1,5 +1,5 @@
 ![image alt](https://github.com/davidquinterooo/django-auth-crud/blob/5a17da3de2a0270d1e59c0c88c345187d004d311/crear.png)
-
+![image alt](https://github.com/davidquinterooo/django-auth-crud/blob/c7c1677be2992313b6ddec72916c5e322c65a244/crud.png)
 # Django Task - CRUD y Auth
 
 Una aplicación web robusta desarrollada con **Django** y **Bootstrap**, diseñada para gestionar tareas personales de manera eficiente. El sistema permite a los usuarios autenticados tener un control total sobre su lista de tareas en un entorno seguro.
