@@ -1,3 +1,4 @@
+![image_alt](https://github.com/davidquinterooo/django-auth-crud/blob/f7a1579535aeeb6118f5a2e2071da72fed1e5d85/inicio.png)
 ![image_alt](https://github.com/davidquinterooo/django-auth-crud/blob/7c0b4a95ed424de8f90ebff0f45224f28e52b64c/registrar.png)
 ![image alt](https://github.com/davidquinterooo/django-auth-crud/blob/5a17da3de2a0270d1e59c0c88c345187d004d311/crear.png)
 ![image alt](https://github.com/davidquinterooo/django-auth-crud/blob/c7c1677be2992313b6ddec72916c5e322c65a244/crud.png)
