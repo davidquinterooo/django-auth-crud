@@ -56,8 +56,9 @@ DATABASES = {
 
 # Configuración de Archivos Estáticos (Donde vive Bootstrap)
 STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 STATICFILES_DIRS = [
-    BASE_DIR / 'static', # Carpeta global de CSS/JS
+    os.path.join(BASE_DIR, 'static'), # Carpeta global de CSS/JS
 ]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
