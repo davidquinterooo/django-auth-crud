@@ -7,7 +7,7 @@ SECRET_KEY = 'desarrollo-local-123'
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['acy29.pythonanywhere.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
